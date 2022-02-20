@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+:root{
+    --amarillo: hsl(53, 100%, 50%);
+    --verde: #0c443a;
+    --limon: #25d1b2;
+    --degradado:linear-gradient(90deg, var(--limon), var(--verde));
+}
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+*::selection{
+    background: var(--limon);
+    color: white;
+}
+
+html{
+    font-size: 62.4%;
+    overflow-x: hidden;
+}
+
+body{
+    background: white;
+}
+
+section{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+#detalles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    flex-direction: column;
+    color:white;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.726)),url(../img/fondo_detalles.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.titdetalles{
+    font-size: 5em;
+    color: white;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.815);
+}
+
+.titacercade{
+    font-size: 5em;
+    color: white;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.815);
+}
+
+.txtdetalles{
+    font-size: 1.8em;
+    color: #f9f9f9;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.815);
+}
+
+#acercade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    flex-direction: column;
+    color:white;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.726)),url(../img/ce_dealer_sign_large.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+#equipos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    flex-direction: column;
+    color:black;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.titequipo{
+    font-size: 5em;
+    color: #333;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.txtequipo{
+    font-size: 1.8em;
+    color: #666;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+#paquetes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    flex-direction: column;
+    color:black;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(../img/fondo_2.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+marquee{
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color:black;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(../img/fondo_2.png);
+}
+
+.titpaquetes{
+    font-size: 5em;
+    color: var(--limon);
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.txtpaquetes{
+    font-size: 1.8em;
+    color: black;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.h3paquet{
+    font-size: 3em;
+    color: var(--verde);
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+#rentar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    flex-direction: column;
+    color:black;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 2),rgba(0, 0, 0,0)),url(../img/fondo_bonito.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.titrenta{
+    font-size: 5em;
+    color: white;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.titrenta2{
+    font-size: 3em;
+    color: #f9f9f9;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.txtrenta{
+    font-size: 1.8em;
+    color: #f9f9f9;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.titacercade{
+    font-size: 5em;
+    color: white;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.815);
+}
+
+.txtacerca{
+    font-size: 1.8em;
+    color: #f9f9f9;
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.815);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: var(--degradado);
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    transition: all .3s linear;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo{
+    font-size: 2rem;
+    color: var(--limon);
+}
+
+header .logo span{
+    color: var(--verde);
+}
+
+header .navbar a{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: var(--verde);
+}
+
+header .navbar a:hover{
+    color: var(--limon);
+}
+
+header input{
+    display: none;
+}
+
+header label{
+    font-size: 3rem;
+    color: var(--verde);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/inicio_fondo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.equipos .image img{
+    width: 80%;
+}
+
+.equipos .imagee img{
+    width: 110%;
+}
+
+.equipos .imageee img{
+    width: 65%;
+}
+
+.inicio .image img{    
+    width: 100vh;
+    height: 70ch;
+    animation: float 3s linear infinite;
+
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateX(0rem);
+    }
+    50%{
+        transform: translateX(-3.5rem);
+    }
+}
+
+.inicio .content h3{
+    font-size: 5rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.inicio .content h3 span{
+    color: var(--limon);
+    text-transform: uppercase;
+}
+
+.inicio .content P{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+
+}.footer{
+    padding: 3rem;
+    background: url(../img/footer-fondo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .caja-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .caja-contenedor .caja{
+    flex: 1 1 25rem;
+    margin: 2rem;
+}
+
+.footer .caja-contenedor .caja h3{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: wheat;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.footer .caja-contenedor .caja p{
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color: whitesmoke;
+}
+
+.footer .caja-contenedor .caja a{
+    display: block;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color: wheat;
+}
+
+.footer .caja-contenedor .caja a:hover{
+    text-decoration:  underline;
+}
+
+.footer .caja-contenedor .caja .info{
+    display: flex;
+    align-items: center;
+}
+
+.footer .caja-contenedor .caja .info i{
+    margin: .5rem 0;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background: whitesmoke;
+    color: var(--verde);
+    font-size: 1.8rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+.footer .final{
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    color: wheat;
+    border-top: .1rem solid wheat;
+    padding:  2.5rem 1rem;
+    text-align: center;
+}
+
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+@media(max-width:810px){
+    header label{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 1rem 2rem;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: .2s linear;
+    }
+
+    header .navbar a{
+        display: block;
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+
+
+    header input:checked ~ .navbar{
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    header input:checked ~ label::before{
+        content: '\f00d';
+    }
+
+    
+
+}
+@media(max-width:1100px){
+    .inicio{
+        flex-flow: column-reverse;
+    }
+
+    .inicio .image img{
+        width: 100%;
+    }
+
+    .inicio .content h3{
+        font-size: 3.6rem;
+    }
+
+    .inicio .content p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 49%;
+    }
+}
